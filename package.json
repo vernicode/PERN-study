@@ -1,0 +1,22 @@
+{
+  "name": "express-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
